@@ -3,7 +3,7 @@ import IDocument from '../Interfaces/IDocument';
 import SampleUser from './sampleUser';
 
 
-export default class SampleUserDocument implements IDocument {
+export default class SampleUserDocument implements IDocument<IUser> {
     private _data: Array<IUser>
     private _delay: number;
 

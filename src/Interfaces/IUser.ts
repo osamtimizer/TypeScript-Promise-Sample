@@ -1,4 +1,4 @@
 export default interface IUser {
-    getId(): string
-    getName(): string
+    getId(): string;
+    getName(): string;
 }

@@ -1,5 +1,5 @@
-export default interface IDocument{
-    findById(query :string) :Promise<object>
-    findByName(query :string) :Promise<object>
-    write(target :object) :Promise<object>
+export default interface IDocument<T>{
+  findById(query :string) :Promise<T>;
+  findByName(query :string) :Promise<T>;
+  write(target :T) :Promise<T>;
 }
